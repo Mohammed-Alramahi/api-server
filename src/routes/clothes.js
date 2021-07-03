@@ -29,7 +29,8 @@ const createCloth = async (req, res, next) => {
 const updateCloth = async (req, res, next) => {
   try {
     const id = req.params.id;
-    const item = await cloth.update(id);
+    const dataObj = req.body;
+    const item = await cloth.update(id, dataObj);
     res.status(200).json(item);
   } catch (err) {
     next(err);
