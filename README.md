@@ -12,6 +12,6 @@ Heroku home link:https://ramahi-api.herokuapp.com/
 
 Heroku test api link: https://ramahi-api.herokuapp.com/api/v1/food
 
-Github PR: https://github.com/Mohammed-Alramahi/api-server/pull/2
+Github PR: https://github.com/Mohammed-Alramahi/api-server/pull/3
 
 
